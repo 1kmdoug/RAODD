@@ -1,0 +1,73 @@
+﻿Field Name,Description
+parcel_id,Parcel Identification Number (PIN) / Assessor's Parcel Number (APN)
+county_id,County FIPS Identifier
+cty_row_id,Row order number of parcel record within its county. Not durable or globally unique; for that see robust_id.
+county_name,County Name
+muni_name,Municipality Name
+census_place,Census Place Name
+state_abbr,State Abbreviation
+county_link,County Link
+address,Physical/Site Address
+addr_number,Physical/Site House Number
+addr_street_prefix,Physical/Site Street Prefix
+addr_street_name,Physical/Site Street Name
+addr_street_suffix,Physical/Site Street Suffix
+addr_street_type,Physical/Site Street Type
+addr_city,Physical/Site City
+addr_zip,Physical/Site Zip Code
+addr_zipplusfour,Physical/Site Zip+4 Code Part
+census_zip,Census Zip Code
+owner,Owner Name
+mail_name,Mailing Name
+mail_address1,"Mailing Address first line, often House number Street name Street type or PO Box"
+mail_address2,"Mailing Address second line, often Suite number, Building number, or other mailing information"
+mail_address3,"Mailing Address third line, often City, State, and Zip"
+trans_date,Most Recent Transfer (Sale) Date
+sale_price,Sale Price
+mkt_val_land,Land Market Value
+mkt_val_bldg,Improvement Market Value
+mkt_val_tot,Total Market Value
+bldg_sqft,Building / Home area in square feet
+year_built,Year Built
+ngh_code,Neighborhood Code
+land_use_code,Land Use Code
+land_use_class,"Derived Land Use Class ('Residential', 'Agricultural', 'Commercial', 'Tax Exempt', 'Industrial', or 'Mineral')"
+story_height,Story Height
+muni_id,Census municipality ID number
+school_district,School District
+acreage,Deeded acreage from source
+acreage_calc,Acreage calculated from area of geometry
+latitude,Latitude of a point within the parcel
+longitude,Longitude of a point within the parcel
+acreage_adjacent_with_sameowner,Calculated acreage of this and nearby parcels having the same owner
+census_block,Census Block
+census_tract,Census Tract
+owner_occupied,Owner Occupied
+robust_id,"Property record identifier likely to remain consistent across updates, particularly if a property's parcel_id is unchanged and distinct within its county."
+usps_residential,USPS 'Residential' or 'Commercial' classification.
+elevation,"Elevation of property, in feet"
+buildings,Num Buildings
+legal_desc1,Legal Description 1
+legal_desc2,Legal Description 2
+legal_desc3,Legal Description 3
+last_updated,YYYY-QQ Year and quarter the data was last updated
+mail_recipient,Mailing Address Recipient
+mail_uspsbox,Mailing Address USPS Box
+mail_addressnumber,Mailing Address Street Number
+mail_streetnamepre,Mailing Address Street Name Prefix
+mail_streetname,Mailing Address Street Name
+mail_streetnameposttype,Mailing Address Street Name Post Type
+mail_streetnamepostdirectional,Mailing Address Street Name Post Directional
+mail_subaddressoccupancy,Mailing Address Subaddress Occupancy
+mail_placename,Mailing Address Place Name
+mail_statename,Mailing Address State Name
+mail_zipcode,Mailing Address Zip Code
+mail_countryname,Mailing Address Country Name
+alt_id_1,Alternate Id 1
+alt_id_2,Alternate Id 2
+section_township_range,"Hyphenated Section, Township, and Range from Public Land Survey System (PLSS)"
+fld_zone,Flood Zone(s)
+zone_subty,Flood Zone Subtype(s)
+zoning,Zoning
+land_cover,Types and corresponding acreages of land cover on the property (from National Land Cover Database (NLCD))
+crop_cover,Types and corresponding acreages of crop cover on the property (from USDA Cropland Data Layer (CDL))
